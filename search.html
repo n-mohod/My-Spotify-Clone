@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Search | SpotifyClone</title>
+</head>
+
+<body>
+
+    <div class="container flex gap">
+        <div class="left gap">
+            <div class="home bg-gray border-radius">
+                <div class="logo">
+                    <a href="#"><img src="/images/spotify.svg" alt="spotify"></a> 
+                </div>
+                <ul>
+                    <a href="http://127.0.0.1:5500/index.html"><li>
+                        <img class="icon" src="/images/home.svg" alt="home">
+                        <span class="text-center">Home</span>
+                    </li></a>
+                    <a href="http://127.0.0.1:5500/search.html"> <li>
+                        <img class="icon" src="/images/search.svg" alt="search">
+                        <span class="text-center">Search</span>
+                    </li></a>
+                </ul>
+            </div>
+
+            <div class="library bg-gray border-radius">
+                <div class="libraryheading flex item-center gap">
+                    <img class="icon" src="/images/library.svg" alt="lb"><span>Your Library</span>
+                </div>
+
+                <div class="mainlibrary">
+                    <section class="library_element">
+                        <div class="littlebig">Create your First Playlist.</div>
+                        <div class="font_arial">It's easy...we will help you.</div>
+                        <div><button class="library_button">Create Playlist</button></div>
+                    </section>
+                    <section class="library_element">
+                        <div class="littlebig">Create your First Playlist.</div>
+                        <div class="font_arial">It's easy...we will help you.</div>
+                        <div><button class="library_button">Create Playlist</button></div>
+                    </section>
+                    <section class="library_element">
+                        <div class="littlebig">Create your First Playlist.</div>
+                        <div class="font_arial">It's easy...we will help you.</div>
+                        <div><button class="library_button">Create Playlist</button></div>
+                    </section>
+                </div>
+
+
+                <footer class="library_footer gap">
+
+                    <div class="footer_list">
+
+                        <ul>
+                            <li>Legal</li>
+                            <li>Privacy center</li>
+                            <li>Privacy Policy</li>
+                            <li>cookies</li>
+                            <li>About Ads</li>
+                            <li>Accesiblity</li>
+                        </ul>
+                    </div>
+                    <div class="footer_button">
+                        <button class="flex item-center justify-between">
+                            <img id="footer_button_img" src="/images/internet.svg" alt="internet">
+                            <span>English</span>
+                        </button>
+                    </div>
+
+                </footer>
+            </div>
+        </div>
+
+        <div class="right border-radius bg-gray">
+            <header class="flex">
+                <div class="headerleft flex gap justify-center item-center">
+                    <button>
+                        <img class="invert" src="/images/leftnevigation.svg" alt="left_navigation">
+                    </button>
+                    <button>
+                        <img class="invert" src="/images/rightnevigation.svg" alt="right_navigation">
+                    </button>
+                </div>
+                <div class="headermid flex item-center">
+                    <input type="text" alt="What ">
+                </div>
+                <div class="headerright">
+                    <span>Sign up</span>
+                    <button>LogIn</button>
+                </div>
+            </header>
+
+            <div class="right_main border-radius bg-gray">
+            <!--<div class="songContainer bg-gray flex">
+                <div class="card">
+                    <button class="play_button" ><img src="/images/play.svg" alt="play"></button>
+                    <img class="songimage" src="/images/musicimg.webp" alt="music img">
+                    <h3>Song Name</h3>
+                    <span>song discription Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+                        natus.</span>
+                </div>
+                <div class="card">
+                    <img class="songimage" src="/images/musicimg.webp" alt="music img">
+                    <button class="play_button" ><img src="/images/play.svg" alt="play"></button>
+                    <h3>Song Name</h3>
+                    <span>song discription Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+                        natus.</span>
+                </div>
+                <div class="card">
+                    <img class="songimage" src="/images/musicimg.webp" alt="music img">
+                    <button class="play_button" ><img src="/images/play.svg" alt="play"></button>
+                    <h3>Song Name</h3>
+                    <span>song discription Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+                        natus.</span>
+                </div>
+                <div class="card">
+                    <img class="songimage" src="/images/musicimg.webp" alt="music img">
+                    <button class="play_button" ><img src="/images/play.svg" alt="play"></button>
+                    <h3>Song Name</h3>
+                    <span>song discription Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
+                        natus.</span>
+                </div>
+                
+            </div>-->
+
+            <!--<div class="bottom_player flex justify-center item-center">
+                <button><img src="/images/play.svg" alt="play"></button>
+            </div>-->
+
+            <div class="footer flex justify-between">
+                <div class="main_footer flex">
+                    <div class="footer_column">
+                        <div class="footer_heading"><h3>Company</h3></div>
+                        <ul>
+                            <li>About</li>
+                            <li>Jobs</li>
+                            <li>For the Record</li>
+                        </ul>
+                    </div>
+                    <div class="footer_column">
+                        <div class="footer_heading"><h3>Comunity</h3></div>
+                        <ul>
+                            <li>For Artists</li>
+                            <li>Developers</li>
+                            <li>Advertising</li>
+                            <li>Investors</li>
+                            <li>Vendors</li>
+                        </ul>
+                    </div>
+                    <div class="footer_column">
+                        <div class="footer_heading"><h3>Useful links</h3></div>
+                        <ul>
+                            <li>Support</li>
+                            <li>Free Mobile App</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_link flex">
+                    <button><img class="invert" src="/images/twitter.svg" alt="in"></button>
+                    <button><img class="invert" src="/images/insta.svg" alt="lin"></button>
+                    <button><img class="invert" src="/images/youtube.svg" alt="yt"></button>
+                </div>
+            </div>
+
+               
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
